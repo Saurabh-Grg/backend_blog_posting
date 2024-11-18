@@ -1,0 +1,31 @@
+{
+  "name": "backend_blog_posting",
+  "version": "1.0.0",
+  "description": "blog posting app, CRUP, tokenized login, swagger documentation implemented",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saurabh-Grg/backend_blog_posting.git"
+  },
+  "author": "Saurabh Gurung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saurabh-Grg/backend_blog_posting/issues"
+  },
+  "homepage": "https://github.com/Saurabh-Grg/backend_blog_posting#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.4",
+    "sequelize": "^6.37.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
